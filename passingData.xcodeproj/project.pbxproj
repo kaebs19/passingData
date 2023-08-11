@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		0FD3DFA82A857D920089BFA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD3DFA72A857D920089BFA2 /* AppDelegate.swift */; };
 		0FD3DFAA2A857D920089BFA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD3DFA92A857D920089BFA2 /* SceneDelegate.swift */; };
-		0FD3DFAC2A857D920089BFA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD3DFAB2A857D920089BFA2 /* ViewController.swift */; };
+		0FD3DFAC2A857D920089BFA2 /* FristVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD3DFAB2A857D920089BFA2 /* FristVC.swift */; };
 		0FD3DFAF2A857D920089BFA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD3DFAD2A857D920089BFA2 /* Main.storyboard */; };
 		0FD3DFB12A857D930089BFA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FD3DFB02A857D930089BFA2 /* Assets.xcassets */; };
 		0FD3DFB42A857D930089BFA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD3DFB22A857D930089BFA2 /* LaunchScreen.storyboard */; };
+		0FD3DFBD2A857E090089BFA2 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD3DFBC2A857E090089BFA2 /* SecondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0FD3DFA42A857D920089BFA2 /* passingData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = passingData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FD3DFA72A857D920089BFA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FD3DFA92A857D920089BFA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0FD3DFAB2A857D920089BFA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0FD3DFAB2A857D920089BFA2 /* FristVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FristVC.swift; sourceTree = "<group>"; };
 		0FD3DFAE2A857D920089BFA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FD3DFB02A857D930089BFA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FD3DFB32A857D930089BFA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FD3DFB52A857D930089BFA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FD3DFBC2A857E090089BFA2 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		0FD3DFA62A857D920089BFA2 /* passingData */ = {
 			isa = PBXGroup;
 			children = (
+				0FD3DFBB2A857DE70089BFA2 /* Controllers */,
 				0FD3DFA72A857D920089BFA2 /* AppDelegate.swift */,
 				0FD3DFA92A857D920089BFA2 /* SceneDelegate.swift */,
-				0FD3DFAB2A857D920089BFA2 /* ViewController.swift */,
 				0FD3DFAD2A857D920089BFA2 /* Main.storyboard */,
 				0FD3DFB02A857D930089BFA2 /* Assets.xcassets */,
 				0FD3DFB22A857D930089BFA2 /* LaunchScreen.storyboard */,
 				0FD3DFB52A857D930089BFA2 /* Info.plist */,
 			);
 			path = passingData;
+			sourceTree = "<group>";
+		};
+		0FD3DFBB2A857DE70089BFA2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0FD3DFAB2A857D920089BFA2 /* FristVC.swift */,
+				0FD3DFBC2A857E090089BFA2 /* SecondVC.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FD3DFAC2A857D920089BFA2 /* ViewController.swift in Sources */,
+				0FD3DFAC2A857D920089BFA2 /* FristVC.swift in Sources */,
 				0FD3DFA82A857D920089BFA2 /* AppDelegate.swift in Sources */,
+				0FD3DFBD2A857E090089BFA2 /* SecondVC.swift in Sources */,
 				0FD3DFAA2A857D920089BFA2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
