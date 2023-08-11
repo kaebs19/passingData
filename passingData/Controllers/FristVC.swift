@@ -23,6 +23,7 @@ class FristVC: UIViewController {
         getDataUser()
 
         
+        
     }
     // MARK: -  Configure Action - Func
     
@@ -65,3 +66,4 @@ extension FristVC : Profile {
     }
 
 }
+

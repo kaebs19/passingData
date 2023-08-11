@@ -20,6 +20,9 @@ class SecondVC: UIViewController {
 
     var userdata:Profile?
     
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // MARK: - View Life Cycle
@@ -42,4 +45,8 @@ class SecondVC: UIViewController {
     }
     
 
+}
+
+extension SecondVC {
+    
 }
